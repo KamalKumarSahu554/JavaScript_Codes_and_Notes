@@ -1,0 +1,53 @@
+<!--
+# DOM
+ - When a web page is loaed, the browser creates a Document Object Model(DOM) of the page
+
+# DOM Manipulation 
+
+- Selecting with id
+  document.getElementByID("id")
+
+- Selecting with class
+  document.getElementByClassName("class")
+
+- Selecting with tag
+  document.getElementByTagName("p")
+
+- Query Selector
+  document.querySelector("id/ class/ tag")
+  // return first eliment
+
+  document.querySelectorAll("id/ class/ tag")
+  // return a NodeList
+
+
+- Attributes
+  getAttribute(attr)
+  // to get the attribute value
+
+  setAttribute(attr, value)
+  // to set the attribute value
+
+- Style
+  node.style
+
+
+- Insert Eliment
+  // first create then add
+  node.append(el) // adds at the end of the node (inside)
+  node.prepend(el) // adds at the start of the node (inside)
+  node.before(el) // adds before the node (outside)
+  node.after(el) // adds after the node (outside)
+  
+- Delete Eliment
+  node.remove() //remove the node
+
+  ----------------
+- Properties
+tagName : returns tag for element nodes
+innerText : returns the text content of the element and its children
+innerHTML : returns the plain tex or HTML contents in the element
+textContent : returns textual content even for hidden elements
+
+
+-->
